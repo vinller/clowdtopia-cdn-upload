@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Upload</title>
+</head>
+<body>
+    <form id="uploadForm" action="upload.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="fileToUpload" id="fileToUpload">
+        <input type="submit" value="Upload" id="uploadButton">
+    </form>
+    <div id="status"></div>
+
+    <script src="upload.js"></script>
+</body>
+</html>
